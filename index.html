@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="diceroller.css" />
+    <title>Dice Roller</title>
+  </head>
+  <body>
+    <header id="title">
+      <div class="boxer">
+        <h1>Dice-Roller-Game</h1>
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="picture">
+        <div class="images">
+          <img src="img/dice1.png" id="favcon1" class="favicon" alt="" />
+        </div>
+      </div>
+      <div class="picture">
+        <div class="images">
+          <img src="img/dice2.png" id="favcon2" class="favicon" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <sextion id="butt">
+      <div class="btns">
+        <button type="button" class="myButton" onclick="hellos();">
+          Roll the Dice
+        </button>
+      </div>
+    </sextion>
+    <!-- <script>
+        function hellos() {
+        var images = ['img/dice1.png','img/dice2.png','img/dice3.png','img/dice4.png','img/dice5.png','img/dice6.png'];
+        let i = Math.floor((Math.random() * 5) + 1);
+        let y = Math.floor((Math.random() * 5) + 1);
+        var img1 = document.getElementById("favcon1");
+        var img2 = document.getElementById("favcon2");
+        img1.src = images[y];
+        img2.src = images[i];
+        }
+    </script> -->
+    <script src="hello.js"></script>
+
+  </body>
+</html>

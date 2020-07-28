@@ -1,0 +1,75 @@
+/* Css reset */
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* here is the css coding of dice roller website  */
+
+/* the naming section of the dice roller website */
+
+
+#title {
+    font-family: 'Patrick Hand', cursive;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxer {
+    justify-content: center;
+    padding: 1% 8%;
+    font-size:2.5rem;
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(33, 35, 37); 
+    color: #f7faff;
+    text-align: center;
+}
+
+#home {
+    font-family: 'Patrick Hand', cursive;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+/* this is box model of outer images */
+.picture {
+    margin-left: 60px;
+    padding: 1% ;
+
+}
+
+/* this is the configuration for images */
+
+.favcon {
+    position: relative;
+    margin-left: 80px;
+    height: 50%;
+    width: 50%;
+}
+
+
+.myButton {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    font-size: 60px;
+    background-color: rgb(226, 67, 67);
+    font-family: 'Patrick Hand', cursive ;
+    color: #f7faff;
+    border-radius: 20px;
+}
+    .myButton:hover {
+    background: #080808;
+    border-radius: 20px }
+    .myButton:active {
+    background: #144E75; 
+    border-radius: 20px}
